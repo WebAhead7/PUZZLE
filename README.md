@@ -32,11 +32,11 @@ If you are excited about solving real puzzles, you will definitely love our apps
 PUZZLE on your device is as chellenge as real one! All this features make the PUZZLE as attractive as real puzzle.
 Discover the colorful world of free  PUZZLE:
 
-# A lot of free beatiful, high quality pictures.
-# Daily free puzzle game. Get a new puzzle every day and try to solve it.
-# PUZZLE, chellenge yourself to reveal what is hidden in a picture.
-# Daily updated gallery. You'll never run out of free puzzle in our box.
-# From 6 to 24 pieces, the more pieces, the harder your game becomes.
+. A lot of free beatiful, high quality pictures.
+. Daily free puzzle game. Get a new puzzle every day and try to solve it.
+. PUZZLE, chellenge yourself to reveal what is hidden in a picture.
+. Daily updated gallery. You'll never run out of free puzzle in our box.
+. From 6 to 24 pieces, the more pieces, the harder your game becomes.
 
 
 ## Built With
