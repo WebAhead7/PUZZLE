@@ -83,6 +83,13 @@ setBtn.addEventListener('click', (e)=>{
     /**
      * image srouce update according to level and selected image
      */
+    const gridBoardcells = document.querySelectorAll('div.grid-board .cell');
+    const imagesContainer = document.querySelector('div.image-pieces-container');
+    gridBoardcells.forEach(cell =>{
+        console.log(cell);
+        if(cell.firstChild !== null)
+        imagesContainer.appendChild(cell.removeChild(cell.firstChild));
+    })
     const images = document.querySelectorAll('img.dragable');
     const root = document.documentElement;
     images.forEach(image =>{
