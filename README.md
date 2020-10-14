@@ -23,8 +23,21 @@
 <p align="center">
   <img src="https://github.com/WebAhead7/PUZZLE/blob/main/graphic.jpg" width="100%" height="500" />
 </p>
-  It is an Image Puzzle game, you get an image cut into some pieces.
-  Your job is to arrange every piece of image in its correct place, so you can get the whole image in front of you.
+  
+PUZZLE game for free: daily collection of pictures for kids.
+Welcome to the colorful world of PUZZLE! A lot of pictures, hours of fun and no losr pieces.
+Enjoy piecing new bright magic PUZZLES every day.
+Our puzzle game includes a large number of beutiful free images of different difficulty levels from easy to hard. The game difficulty is based on the number of puzzle pieces.
+If you are excited about solving real puzzles, you will definitely love our apps as well.
+PUZZLE on your device is as chellenge as real one! All this features make the PUZZLE as attractive as real puzzle.
+Discover the colorful world of free  PUZZLE:
+
+# A lot of free beatiful, high quality pictures.
+# Daily free puzzle game. Get a new puzzle every day and try to solve it.
+# PUZZLE, chellenge yourself to reveal what is hidden in a picture.
+# Daily updated gallery. You'll never run out of free puzzle in our box.
+# From 6 to 24 pieces, the more pieces, the harder your game becomes.
+
 
 ## Built With
 * HTML
