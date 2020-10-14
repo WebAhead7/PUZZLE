@@ -52,7 +52,11 @@ Discover the colorful world of free  PUZZLE:
 <!-- GETTING STARTED -->
 ## Getting Started
 Ok! What’s up sweetie?!
-1) 
+1) Choose play
+2) Choose the preferred level
+3) Choose the preferred image
+4) Click sit
+5) navigate to the right corner and drag the pixels to the right place in the middle block
 
 <!-- CONTACT -->
 ## Contact
