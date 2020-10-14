@@ -52,11 +52,12 @@ Discover the colorful world of free  PUZZLE:
 <!-- GETTING STARTED -->
 ## Getting Started
 Ok! What’s up sweetie?!
-1) Choose play
-2) Choose the preferred level
-3) Choose the preferred image
-4) Click sit
-5) navigate to the right corner and drag the pixels to the right place in the middle block
+
+1) Click on "Play" buttum to start play the puzzle.
+2) In the main screen choose a "level" that you prefer from easy to hard.
+3) click on "options" to choose an image that you prefer to paly with.
+4) click on "Help" if you need more info about the game.
+5) navigate to the right corner and drag the pixels to the right place in the middle block.
 
 <!-- CONTACT -->
 ## Contact
