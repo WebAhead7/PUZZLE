@@ -30,27 +30,56 @@ body{
     border-radius: 5px;
 }
 
+.config-option .img-select, .config-option .level-select{
+    position: absolute;
+    left: -100vw
+}
+
+.config-option .level-label{
+    display: block;
+    cursor: pointer;
+    width:30%;
+    height: 70%;
+    line-height: 170%;
+    display: inline-block;
+    background: orange;
+    text-align: center;
+    font-size: 48px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
 .config-option{
     width: 95%;
-    height: 20%;
+    height: 30%;
     margin: auto;
     margin-top: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: hidden;
+}
+
+img.label-image{
+    cursor: pointer;
+    width : 90%;
+    height: 100%;
+    padding: 0px 0px 5px 5px;
+
 }
 
 .config-btn{
     width: 50%;
-    height: 5%;
+    height: 10%;
+    border-radius: 5px;
     display: block;
     margin: auto;
-    margin-top: 10px;
+    background: green;
+    font-weight: bold;
+    font-size: medium;
 }
 
 .main-container{
     width: 70%;
     height: 100%;
-    /* border: 2px solid black; */
-    /* margin-left: auto;
-    margin-top: 10vh; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -84,7 +113,7 @@ body{
     border: 3px dashed white;
     border-radius: 5px;
     display: grid;
-    grid-template-rows: repeat(auto-fill, minmax(120px,1fr));
+    grid-template-rows: repeat(auto-fill, minmax(130px,1fr));
     row-gap: 10px;
 }
 
