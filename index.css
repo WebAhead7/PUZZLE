@@ -95,16 +95,18 @@ a:active,a:hover{
     color: white;
     position: relative;
     text-align: center;
-    top :50px;
+    top :40px;
 
 }
-.Help p{
+.Help p {
     position: relative;
     font-size: 30px;
     color: white;
     top:80px;
-    text-align: center;
+    left:50px;
 }
+
+
 .Help button{
     position: relative;
     top: 120px;
@@ -130,10 +132,10 @@ a:active,a:hover{
     color: white;
 }
 
-.selectImage button{
+.About button{
 
     position: relative;
-    top: 120px;
+    top: 200px;
     left: 45%;
     padding: 10px;
     width: 10%;
@@ -143,10 +145,35 @@ a:active,a:hover{
     color: white;
 }
 
+.aboutTitle{
+    position: relative;
+    text-align: center;
+    top: 30px;
+    color: white;
+    font-size: 50px;
+}
+.About p {
 
+    position: relative;
+    top: 120px;
+    text-align: center;
+    font-size: large;
+    color: white;
+
+}
+
+.aboutList{
+
+    position: relative;
+    top: 160px;
+    color: white;
+    font-size: 20px;
+    left:20px;
+
+}
 
 /* Ammar section  */
-.Play:root{
+:root{
     --grid-size : 3;
     --display-level3 : none;
     --display-level2 : none;

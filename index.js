@@ -2,25 +2,25 @@
 var homeDiv = document.getElementById("Home");
 var helpDiv= document.getElementById("Help");
 var playDiv= document.getElementById("Play");
-var selectDiv=document.getElementById("selectImage");
+var aboutDiv=document.getElementById("About");
 
 homeDiv.style.display="block";
 helpDiv.style.display="none";
 playDiv.style.display="none";
-selectDiv.style.display="none";
+aboutDiv.style.display="none";
 
 
 //  select image button
 
-function selectImageFunction() {
+function aboutFunction() {
   if (homeDiv.style.display === "none") {
     homeDiv.style.display = "block";
     playDiv.style.display="none";
     helpDiv.style.display="none";
-    selectDiv.style.display="none";
+    aboutDiv.style.display="none";
   } else {
     homeDiv.style.display = "none";
-    selectDiv.style.display="block";
+    aboutDiv.style.display="block";
     helpDiv.style.display="none";
     playDiv.style.display="none";
 
@@ -32,10 +32,12 @@ function playFunction() {
     homeDiv.style.display = "block";
     playDiv.style.display="none";
     helpDiv.style.display="none";
+    aboutDiv.style.display="none";
   } else {
     homeDiv.style.display = "none";
     playDiv.style.display="block";
     helpDiv.style.display="none";
+    aboutDiv.style.display="none";
 
   }
 }
@@ -45,9 +47,13 @@ function helpFunction() {
   if (homeDiv.style.display === "none") {
     homeDiv.style.display = "block";
     helpDiv.style.display= "none";
+    playDiv.style.display="none";
+    aboutDiv.style.display="none";
   } else {
     homeDiv.style.display = "none";
     helpDiv.style.display="block";
+    playDiv.style.display="none";
+    aboutDiv.style.display="none";
   }
 }
 
@@ -58,10 +64,12 @@ function helpReturn(){
     helpDiv.style.display= "block";
     playDiv.style.display="none";
     homeDiv.style.display = "none";
+    aboutDiv.style.display="none";
     
   } else {
     helpDiv.style.display="none";
     playDiv.style.display="none";
+    aboutDiv.style.display="none";
     homeDiv.style.display = "block";
 
   }
@@ -70,25 +78,28 @@ function helpReturn(){
 // return button play to home
 
 function playReturn(){
- 
+  
   if (playDiv.style.display === "none") {
     playDiv.style.display= "block";
     helpDiv.style.display="none";
     homeDiv.style.display = "none";
+    aboutDiv.style.display="none";
+
     
   } else {
     playDiv.style.display="none";
     helpDiv.style.display="none"
+    aboutDiv.style.display="none";
     homeDiv.style.display = "block";
 
   }
 }
 
 // return button select image to home
-function selectReturn(){
+function aboutReturn(){
  
-  if (selectDiv.style.display === "none") {
-    selectDiv.style.display= "block";
+  if (aboutDiv.style.display === "none") {
+    aboutDiv.style.display= "block";
     helpDiv.style.display="none";
     homeDiv.style.display = "none";
     playDiv.style.display="none";
@@ -96,7 +107,7 @@ function selectReturn(){
   } else {
     playDiv.style.display="none";
     helpDiv.style.display="none";
-    selectDiv.style.display="none";
+    aboutDiv.style.display="none";
     homeDiv.style.display = "block";
 
   }

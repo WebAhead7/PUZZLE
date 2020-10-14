@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="http://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Document</title>
+    <title>PUZZLE</title>
 </head>
 <body>
-    <!--Home Page-->
-<div class="Home" id="Home">
+    <!--Home Page--> 
+  <div class="Home" id="Home">
   <h1 class="homeTitle">PUZZLE</h1>
   <!-- <div class="levelButtons" >
 
@@ -30,7 +30,6 @@
              <li class="ic"><a href="#"><i class="fab fa-facebook"></i></a></li>
              <li class="ic"><a href="#"><i class="fab fa-instagram"></i></a></li>
  
- 
          </ul>
          </div>
      
@@ -38,21 +37,36 @@
 
      <div class="mainButtons">
        
-        <button onclick="selectImageFunction()">Select Image</button><br>
+        <button onclick="aboutFunction()">ABOUT</button><br>
         <button onclick="playFunction()">PLAY</button><br>
         <button onclick="helpFunction()">HELP</button>
-
-
      </div>
 
 </div>
 
-<!--Select Image-->
-<div class="selectImage" id="selectImage">
+<!--About-->
+<div class="About" id="About">
+    <h1 class="aboutTitle">WELCOME TO PUZZLE</h1>
+    <p>
+    Welcome to the colorful world of PUZZLE! A lot of pictures, hours of fun and no losr pieces.
+    Enjoy piecing new bright magic PUZZLES every day.
+    Our puzzle game includes a large number of beutiful free images of different difficulty levels from easy to hard. The game difficulty is based on the number of puzzle pieces.
+    PUZZLE on your device is as chellenge as real one! All this features make the PUZZLE as attractive as real puzzle.
+   </p>
+   <div class="aboutList">
+    <h3>Discover the colorful world of free  PUZZLE:</h3>
+    <ul>
+        <li> If you are excited about solving real puzzles, you will definitely love our apps as well.</li>
+        <li> A lot of free beatiful, high quality pictures.</li>
+        <li> Daily free puzzle game. Get a new puzzle every day and try to solve it.</li>
+        <li> PUZZLE, chellenge yourself to reveal what is hidden in a picture.</li>
+        <li> Daily updated gallery. You'll never run out of free puzzle in our box.</li>
+        <li> From 6 to 24 pieces, the more pieces, the harder your game becomes.</li>
+    </ul>
+</div>
+  <button onclick="aboutReturn()">Return</button>
 
-  <button onclick="selectReturn()">Return</button>
-
-
+   
 </div>
 
 <!--Play-->
@@ -77,7 +91,7 @@
             <input class="level-select" type="radio" name="level" id="level3" value="3">
             <label for="level3"> Level 3</label>
         </fieldset>
-        <button class="config-btn">Set</button>
+        <button class="config-btn">New Game</button>
     </div>
     <div class="main-container">
         <div class="gameboard-piecescontainer">
@@ -153,15 +167,22 @@
 <!--Help page-->
 <div class="Help" id="Help">
 
-<h1>HELP</h1>
-<p>
-  how to use the  game <br>
-  report a problem<br>
-  contact us !!!
+
+<h1>Ok! What’s up sweetie?!</h1>
+<p >
+    1) Click on "Play" buttum to start play the puzzle.<br>
+    2) In the main screen choose a "level" that you prefer from easy to hard.<br>
+    3) click on "options" to choose an image that you prefer to paly with.<br>
+    4) click on "Help" if you need more info about the game.<br>
+    5) navigate to the right corner and drag the pixels to the right place in the middle block.<br>
+   <br><br>
+   <br>
+     DO YOU Have Problem?!<br>
+ 
+       contact us on our social media accounts thats you can find in home page. 
 </p>
+
 <button onclick="helpReturn()">Return</button>
-
-
 </div>
 <script src="index.js"></script>
     
