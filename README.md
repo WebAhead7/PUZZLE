@@ -40,7 +40,7 @@ Discover the colorful world of free  PUZZLE:
 
 . Daily updated gallery. You'll never run out of free puzzle in our box.
 
-. From 6 to 24 pieces, the more pieces, the harder your game becomes.
+.   9, 16 or 25 pieces, the more pieces, the harder your game becomes.
 
 
 ## Built With
