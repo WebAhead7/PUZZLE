@@ -173,6 +173,12 @@ a:active,a:hover{
 }
 
 /* Ammar section  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --grid-size : 3;
     --display-level3 : none;
@@ -195,36 +201,62 @@ a:active,a:hover{
     height: 100%;
     border: 2px solid white;
     border-radius: 5px;
-    background-color: black;
-    opacity: 0.8;
+}
+
+.config-option .img-select, .config-option .level-select{
+    position: absolute;
+    left: -100vw
+}
+
+.config-option .level-label{
+    display: block;
+    cursor: pointer;
+    width:30%;
+    height: 70%;
+    line-height: 170%;
+    display: inline-block;
+    background: orange;
+    text-align: center;
+    font-size: 48px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.config-option{
+    width: 95%;
+    height: 30%;
+    margin: auto;
+    margin-top: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: hidden;
+}
+
+.config-option legend{
     color: white;
 }
 
-.config-option{
-    width: 95%;
-    height: 20%;
-    margin: auto;
-    margin-top: 10px;
+img.label-image{
+    cursor: pointer;
+    width : 90%;
+    height: 100%;
+    padding: 0px 0px 5px 5px;
+
 }
 
 .config-btn{
-    position: relative;
-    top: 60px;
-    left: 80px;
-    width: 30%;
+    width: 50%;
     height: 10%;
-    text-align: center;
-    font-size: large;
-    background-color: black;
-    color: white;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    background: green;
+    font-weight: bold;
+    font-size: medium;
 }
 
 .main-container{
     width: 70%;
     height: 100%;
-    /* border: 2px solid black; */
-    /* margin-left: auto;
-    margin-top: 10vh; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -249,7 +281,7 @@ a:active,a:hover{
     display: grid;
     /*the first param of repeat must be updated according to the level selected so we will try to use css variables..*/
     grid-template-columns: repeat(var(--grid-size), 1fr);
-    grid-template-rows: repeat(var(--grid-size),1fr);
+    grid-template-rows: repeat(var(--grid-size),minmax(70px,1fr));
 }
 
 .image-pieces-container{

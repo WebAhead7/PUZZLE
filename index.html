@@ -73,91 +73,99 @@
 
 <div class="Play" id="Play"> 
 
-  <div class="main-and-config">
-    <div class="config">
-        <fieldset class="config-option">
-            <legend>Select Image</legend>
-            <input class="img-select" type="radio" name="image" id="img1" value="img1">
-            <label for="img1"> Image 1</label>
-            <input class="img-select" type="radio" name="image" id="img2" value="img2">
-            <label for="img2"> Image 2</label>
-        </fieldset>
-        <fieldset class="config-option">
-            <legend>Select Level</legend>
-            <input class="level-select" type="radio" name="level" id="level1" value="1">
-            <label for="level1"> Level 1</label>
-            <input class="level-select" type="radio" name="level" id="level2" value="2">
-            <label for="level2"> Level 2</label>
-            <input class="level-select" type="radio" name="level" id="level3" value="3">
-            <label for="level3"> Level 3</label>
-        </fieldset>
-        <button class="config-btn">New Game</button>
-    </div>
-    <div class="main-container">
-        <div class="gameboard-piecescontainer">
-            <div class="grid-board">
-                <!-- 9 pieces-->
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <!-- 16 pieces / level2-->
-                <div class="cell level2"></div>
-                <div class="cell level2"></div>
-                <div class="cell level2"></div>
-                <div class="cell level2"></div>
-                <div class="cell level2"></div>
-                <div class="cell level2"></div>
-                <div class="cell level2"></div>
-                <!-- 25 pieces / level3-->
-                <div class="cell level3"></div>
-                <div class="cell level3"></div>
-                <div class="cell level3"></div>
-                <div class="cell level3"></div>
-                <div class="cell level3"></div>
-                <div class="cell level3"></div>
-                <div class="cell level3"></div>
-                <div class="cell level3"></div>
-                <div class="cell level3"></div>
-            </div>
-            <div class="image-pieces-container">
-                <!-- level 1-->
-                <img class="dragable" id="part_001" src="./img1_1/image_part_001.jpg" alt="">
-                <img class="dragable" id="part_002" src="./img1_1/image_part_002.jpg" alt="">
-                <img class="dragable" id="part_003" src="./img1_1/image_part_003.jpg" alt="">
-                <img class="dragable" id="part_004" src="./img1_1/image_part_004.jpg" alt="">
-                <img class="dragable" id="part_005" src="./img1_1/image_part_005.jpg" alt="">
-                <img class="dragable" id="part_006" src="./img1_1/image_part_006.jpg" alt="">
-                <img class="dragable" id="part_007" src="./img1_1/image_part_007.jpg" alt="">
-                <img class="dragable" id="part_008" src="./img1_1/image_part_008.jpg" alt="">
-                <img class="dragable" id="part_009" src="./img1_1/image_part_009.jpg" alt="">
-                <!-- level 2-->
-                <img class="dragable level2" id="part_010" src="./img1_2/image_part_010.jpg" alt="">
-                <img class="dragable level2" id="part_011" src="./img1_2/image_part_011.jpg" alt="">
-                <img class="dragable level2" id="part_012" src="./img1_2/image_part_012.jpg" alt="">
-                <img class="dragable level2" id="part_013" src="./img1_2/image_part_013.jpg" alt="">
-                <img class="dragable level2" id="part_014" src="./img1_2/image_part_014.jpg" alt="">
-                <img class="dragable level2" id="part_015" src="./img1_2/image_part_015.jpg" alt="">
-                <img class="dragable level2" id="part_016" src="./img1_2/image_part_016.jpg" alt="">
-                <!-- level 3-->
-                <img class="dragable level3" id="part_001" src="./img1_3/image_part_016.jpg" alt="">
-                <img class="dragable level3" id="part_002" src="./img1_3/image_part_017.jpg" alt="">
-                <img class="dragable level3" id="part_003" src="./img1_3/image_part_018.jpg" alt="">
-                <img class="dragable level3" id="part_004" src="./img1_3/image_part_019.jpg" alt="">
-                <img class="dragable level3" id="part_005" src="./img1_3/image_part_020.jpg" alt="">
-                <img class="dragable level3" id="part_006" src="./img1_3/image_part_021.jpg" alt="">
-                <img class="dragable level3" id="part_007" src="./img1_3/image_part_023.jpg" alt="">
-                <img class="dragable level3" id="part_008" src="./img1_3/image_part_024.jpg" alt="">
-                <img class="dragable level3" id="part_009" src="./img1_3/image_part_025.jpg" alt="">
+    <div class="main-and-config">
+        <div class="config">
+            <fieldset class="config-option">
+                <legend>Select Puzzle</legend>
+                <input class="img-select" type="radio" name="image" id="img1" value="img1" checked>
+                <label for="img1">
+                    <img class="label-image" src="img1.jpeg" alt="image 1" draggable="false">
+                </label>
+                <input class="img-select" type="radio" name="image" id="img2" value="img2">
+                <label for="img2"> 
+                    <img class="label-image" src="img2.jpg" alt="imag 2" draggable="false">
+                </label>
+                <input class="img-select" type="radio" name="image" id="img3" value="img3">
+                <label for="img3"> 
+                    <img class="label-image" src="img3.jpg" alt="imag 3" draggable="false">
+                </label>
+            </fieldset>
+            <fieldset class="config-option">
+                <legend>Select Level</legend>
+                <input class="level-select" type="radio" name="level" id="level1" value="1" checked>
+                <label class="level-label" for="level1">1</label>
+                <input class="level-select" type="radio" name="level" id="level2" value="2">
+                <label class="level-label" for="level2">2</label>
+                <input class="level-select" type="radio" name="level" id="level3" value="3">
+                <label class="level-label" for="level3">3</label>
+            </fieldset>
+            <button class="config-btn">New Game</button>
+        </div>
+        <div class="main-container">
+            <div class="gameboard-piecescontainer">
+                <div class="grid-board">
+                    <!-- 9 pieces-->
+                    <div class="cell" data-peice="001"></div>
+                    <div class="cell" data-peice="002"></div>
+                    <div class="cell" data-peice="003"></div>
+                    <div class="cell" data-peice="004"></div>
+                    <div class="cell" data-peice="005"></div>
+                    <div class="cell" data-peice="006"></div>
+                    <div class="cell" data-peice="007"></div>
+                    <div class="cell" data-peice="008"></div>
+                    <div class="cell" data-peice="009"></div>
+                    <!-- 16 pieces / level2-->
+                    <div class="cell level2" data-peice="010"></div>
+                    <div class="cell level2" data-peice="011"></div>
+                    <div class="cell level2" data-peice="012"></div>
+                    <div class="cell level2" data-peice="013"></div>
+                    <div class="cell level2" data-peice="014"></div>
+                    <div class="cell level2" data-peice="015"></div>
+                    <div class="cell level2" data-peice="016"></div>
+                    <!-- 25 pieces / level3-->
+                    <div class="cell level3" data-peice="017"></div>
+                    <div class="cell level3" data-peice="018"></div>
+                    <div class="cell level3" data-peice="019"></div>
+                    <div class="cell level3" data-peice="020"></div>
+                    <div class="cell level3" data-peice="021"></div>
+                    <div class="cell level3" data-peice="022"></div>
+                    <div class="cell level3" data-peice="023"></div>
+                    <div class="cell level3" data-peice="024"></div>
+                    <div class="cell level3" data-peice="025"></div>
+                </div>
+                <div class="image-pieces-container">
+                    <!-- level 1-->
+                    <img class="dragable" id="001" src="./img1_1/image_part_001.jpg" alt="">
+                    <img class="dragable" id="002" src="./img1_1/image_part_002.jpg" alt="">
+                    <img class="dragable" id="003" src="./img1_1/image_part_003.jpg" alt="">
+                    <img class="dragable" id="004" src="./img1_1/image_part_004.jpg" alt="">
+                    <img class="dragable" id="005" src="./img1_1/image_part_005.jpg" alt="">
+                    <img class="dragable" id="006" src="./img1_1/image_part_006.jpg" alt="">
+                    <img class="dragable" id="007" src="./img1_1/image_part_007.jpg" alt="">
+                    <img class="dragable" id="008" src="./img1_1/image_part_008.jpg" alt="">
+                    <img class="dragable" id="009" src="./img1_1/image_part_009.jpg" alt="">
+                    <!-- level 2-->
+                    <img class="dragable level2" id="010" src="./img1_2/image_part_010.jpg" alt="">
+                    <img class="dragable level2" id="011" src="./img1_2/image_part_011.jpg" alt="">
+                    <img class="dragable level2" id="012" src="./img1_2/image_part_012.jpg" alt="">
+                    <img class="dragable level2" id="013" src="./img1_2/image_part_013.jpg" alt="">
+                    <img class="dragable level2" id="014" src="./img1_2/image_part_014.jpg" alt="">
+                    <img class="dragable level2" id="015" src="./img1_2/image_part_015.jpg" alt="">
+                    <img class="dragable level2" id="016" src="./img1_2/image_part_016.jpg" alt="">
+                    <!-- level 3-->
+                    <img class="dragable level3" id="017" src="./img1_3/image_part_017.jpg" alt="">
+                    <img class="dragable level3" id="018" src="./img1_3/image_part_018.jpg" alt="">
+                    <img class="dragable level3" id="019" src="./img1_3/image_part_019.jpg" alt="">
+                    <img class="dragable level3" id="020" src="./img1_3/image_part_020.jpg" alt="">
+                    <img class="dragable level3" id="021" src="./img1_3/image_part_021.jpg" alt="">
+                    <img class="dragable level3" id="022" src="./img1_3/image_part_022.jpg" alt="">
+                    <img class="dragable level3" id="023" src="./img1_3/image_part_023.jpg" alt="">
+                    <img class="dragable level3" id="024" src="./img1_3/image_part_024.jpg" alt="">
+                    <img class="dragable level3" id="025" src="./img1_3/image_part_025.jpg" alt="">
+                </div>
             </div>
         </div>
     </div>
-</div>
 
   
  <button class="playreturn" onclick="playReturn()">Return</button>
