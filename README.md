@@ -5,7 +5,7 @@
 <br />
 
 <p align="center">
-  <img src= "C:\Users\Owner\Desktop\week2\project2\PUZZLE\img1.jpeg" width="40%" height="250"/>
+  <img src= "https://github.com/WebAhead7/PUZZLE/blob/main/img1.jpeg" width="40%" height="250"/>
   <h2 align="center"><a href="https://webahead7.github.io/PUZZLE/">Try our NEW GAME</h2>
 
                     
@@ -25,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align="center">
-  <img src="C:\Users\Owner\Desktop\week2\project2\PUZZLE\about_readme.PNG" width="100%" height="500" />
+  <img src="https://github.com/WebAhead7/PUZZLE/blob/main/about_readme.PNG" width="100%" height="500" />
 </p>
   
 PUZZLE game for free: daily collection of pictures for kids.
