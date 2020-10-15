@@ -104,7 +104,7 @@ img.label-image{
     display: grid;
     /*the first param of repeat must be updated according to the level selected so we will try to use css variables..*/
     grid-template-columns: repeat(var(--grid-size), 1fr);
-    grid-template-rows: repeat(var(--grid-size),1fr);
+    grid-template-rows: repeat(var(--grid-size),minmax(70px,1fr));
 }
 
 .image-pieces-container{
@@ -113,7 +113,7 @@ img.label-image{
     border: 3px dashed white;
     border-radius: 5px;
     display: grid;
-    grid-template-rows: repeat(auto-fill, minmax(130px,1fr));
+    grid-template-rows: repeat(auto-fill, minmax(120px,1fr));
     row-gap: 10px;
 }
 
