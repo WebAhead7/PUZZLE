@@ -6,6 +6,7 @@
 
 <p align="center">
   <img src="https://github.com/WebAhead7/PUZZLE/blob/main/asd.jpeg" width="40%" height="250"/>
+  <h2 align="center"><a href="https://webahead7.github.io/PUZZLE/">Try it Out</h2>
 </p>
 
 
